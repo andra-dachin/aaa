@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+</head>
+<body style="background-color: rgb(231, 230, 199);">
+    <header>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="Enter email">
+                <button type="submit" style="color: rgb(255, 0, 204);">Subscribe to my blog!</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="menu" onclick="openArticles()">ALL ARTICLES</div>
+    <div class="menu" onclick="openReviews()">REVIEWS</div>
+    <div class="menu" onclick="openContact()">CONTACT</div>
+
+    <div class="container">
+        <form>
+            <label style="color: blueviolet;">First Name</label>
+            <input type="text" style="background-color: rgb(192, 152, 230);" placeholder="Your first name...">
+
+            <label style="color: blueviolet;">Last Name</label>
+            <input type="text" style="background-color: rgb(192, 152, 230);" placeholder="Your last name...">
+
+            <label style="color: blueviolet;">Country</label>
+            <select style="background-color: rgb(192, 152, 230);">
+                <option>Romania</option>
+                <option>Italy</option>
+                <option>Greece</option>
+                <option>USA</option>
+            </select>
+
+            <label style="color: blueviolet;">Subject</label>
+            <textarea style="background-color: rgb(192, 152, 230);" placeholder="Write something..." style="height:200px"></textarea>
+
+            <input type="submit" style="background-color: blueviolet; color:rgb(192, 152, 230);" value="Submit">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
